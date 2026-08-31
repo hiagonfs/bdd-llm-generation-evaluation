@@ -4,7 +4,7 @@
 
 This repository contains the datasets, prompts, generated BDD scenarios, evaluation metrics, human assessments, statistical analyses, and supporting scripts used in the study:
 
-**“Evaluating LLMs and Prompting Strategies for BDD Scenario Generation: Reference-Based Performance, Stability, and Practitioner Perception.”**
+**“Automating BDD Scenario Generation]{Automating BDD Scenario Generation with LLMs: A Comprehensive Evaluation of Accuracy, Stability, and Practitioner Perception.”**
 
 ---
 
