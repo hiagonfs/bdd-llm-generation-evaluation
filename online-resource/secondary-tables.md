@@ -1,6 +1,6 @@
 # Secondary tables
 
-These tables were moved from the main manuscript to keep the article focused on the study design and primary findings. Values and operational definitions are unchanged.
+These tables provide detailed methodological and inferential results supporting the reported analyses. Values and operational definitions match the analysis notebooks and manuscript.
 
 ## OR-1. BDD-oriented criteria incorporated into the common prompt
 
