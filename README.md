@@ -67,6 +67,7 @@ pip install -r requirements-generation.txt
 | [human evaluation/](human%20evaluation/) | Blinded human-evaluation data and associated artifacts. |
 | [scripts/](scripts/) | Metric calculation and repeated-run convergence notebooks. |
 | [statistical-analysis/](statistical-analysis/) | Metric-validation and comparative statistical-analysis notebooks. |
+| [results/](results/) | Final statistical results and consolidated tables produced by the analysis notebooks. |
 | [online-resource/](online-resource/) | Reproducibility documentation for prompts, metric implementations, convergence procedures, and detailed tables. |
 
 ## Evaluation
