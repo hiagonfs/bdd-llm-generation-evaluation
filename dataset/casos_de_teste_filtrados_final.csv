@@ -1,0 +1,788 @@
+﻿id,name,purpose,precondition,execution_type,steps,project_id,user_story_id,priority,reused_id,active,migrate_id
+1,Cadastrar Entidade com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,1
+2,Cancelar cadastro de Entidade com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,2
+3,Cadastrar Entidade com ID existente,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,3
+4,Cadastrar Entidade sem campos obrigatórios preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,4
+5,Cadastrar usuários com diferentes papéis,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,5
+6,Editar informações da entidade com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,6
+7,Editar entidade alterando o ID para um existente,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,7
+8,Editar entidade deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,8
+9,Inativar usuários com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,9
+10,Cancelar edição da entidade com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,10
+11,Verificar acessibilidade às páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,11
+12,Excluir Entidade com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,12
+13,Acessar tela sem estar autenticado na aplicação,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,13
+14,Acessar tela com usuário não cadastrado,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,14
+15,Listar todas as Entidades com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,15
+16,Verificar presença de campos retornados,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,16
+17,Validar resultado da consulta de Entidade sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,17
+18,Tentar acessar tela após time out,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,18
+20,Verificar acesso por papéis,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,20
+21,Validar resultado da consulta (filtro) de Entidade,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,21
+22,Verificar se todos os dados da entidade estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,22
+23,Verificar inserção de link de entidade inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,23
+24,Realizar ação com usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,24
+25,O campo senha deve seguir regra,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,25
+26,Fechar a tela antes de excutar ação,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,26
+27,Cancelar exclusão da entidade,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,27
+28,Fazer primeiro login do usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,28
+29,Cadastrar Entidade com o ID de um previamente excluído,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,29
+30,Recuprar senha com sucesso.,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,30
+31,Tentar autenticar sem preencher username,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,31
+32,Tentar autenticar com usuário não cadastrado,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,32
+33,Tentar autenticar com usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,33
+34,Verificar comportamento do campo,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,34
+35,Validar logout da aplicação,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,35
+36,Fechar browser e abrir aplicação novamente,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,36
+37,Validar ação sem conexão com servidor,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,37
+38,Verificar cadastro de mais de um administrador,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,38
+39,Verificar campos senha e confirmação,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,39
+40,Fazer login com usuário e senha válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,40
+42,Verificar exibição de notificações nas telas,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,42
+43,Cadastrar Entidade com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,43
+44,Realizar ação com campo inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,44
+45,Realizar download do relatório,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,45
+46,Gerar PDF de relatório com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,46
+1084,Login com senha inválida,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,60.0,True,1152
+47,Tentar gerar relatório em um formato diferente do PDF,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,47
+48,Validar nomenclatura do arquivo PDF gerado,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,48
+49,Cadastrar Entidade com restrição de negócio,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,49
+50,Alterar entidade com restrição de negócio,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,50
+51,Visualizar dados da Entidade,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,51
+52,Incluir papel do usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,52
+53,Excluir papel do usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,53
+54,Verificar gráfico Entidade,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,54
+55,Executar ação sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,55
+56,Verificar se estados da entidade estão de acordo,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,56
+57,Recuperar senha com nome de usuário inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,57
+59,Fazer login com usuário inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,59
+61,Fazer login com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,61
+62,Salvar com data inical maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,62
+63,Listar dashboard sem sprint em andamento,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,63
+64,Cadastro de Sprint com fora do período do projeto,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,,True,64
+65,Cadastro de Sprint com período conflitante com outra sprint,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,,True,65
+66,Associar US à sprint,Imported from sheet,Imported from sheet,M,Imported from sheet,14,245,M,,True,66
+67,Desassociar US à sprint,Imported from sheet,Imported from sheet,M,Imported from sheet,14,245,M,,True,67
+68,Cadastrar usuário com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,1.0,True,68
+69,Cancelar cadastro de usuário com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,2.0,True,69
+70,Verificar duplicidade no cadastro de usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,3.0,True,70
+71,Cadastrar usuário sem informar nenhum campo obrigatório,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,4.0,True,71
+72,Criar usuários utilizando diferentes perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,5.0,True,72
+73,Validar comportamento do campo Confirmar Senha,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,34.0,True,73
+74,Validar comportamento do campo Matrícula,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,34.0,True,74
+75,Validar comportamento do campo Nome,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,34.0,True,75
+76,Validar comportamento do campo Função,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,34.0,True,76
+77,Validar comportamento do campo Senha,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,34.0,True,77
+78,Validar comportamento do campo Perfil,Imported from sheet,Imported from sheet,M,Imported from sheet,3,13,M,34.0,True,78
+82,Editar informações do usuário com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,3,14,M,6.0,True,82
+83,Verificar duplicidade na edição de usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,3,14,M,7.0,True,83
+84,Editar usuário deixando todos os campos de texto do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,3,14,M,8.0,True,84
+85,"Verificar presença do botão ""Cancelar""",Imported from sheet,Imported from sheet,M,Imported from sheet,3,14,M,16.0,True,85
+86,Cancelar edição de usuário com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,3,14,M,10.0,True,86
+87,Verificar acesso por Perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,3,23,M,20.0,True,95
+88,Acessar tela de consulta de OPS sem estar logado a aplicação,Imported from sheet,Imported from sheet,M,Imported from sheet,3,23,M,13.0,True,96
+89,Validar acesso de usuário inativado,Imported from sheet,Imported from sheet,M,Imported from sheet,3,23,M,24.0,True,97
+90,Listar todas as OPs com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,3,23,M,15.0,True,98
+91,Validar nomenclatura das colunas listadas,Imported from sheet,Imported from sheet,M,Imported from sheet,3,23,M,16.0,True,99
+92,Validar resultado de consulta por OPs vazia,Imported from sheet,Imported from sheet,M,Imported from sheet,3,23,M,17.0,True,100
+93,Verificar redirecionamento a tela de login após time out,Imported from sheet,Imported from sheet,M,Imported from sheet,3,23,M,35.0,True,101
+97,Acessar tela de consulta de Consultar BOM sem estar logado a aplicação,Imported from sheet,Imported from sheet,M,Imported from sheet,3,25,M,13.0,True,105
+99,Listar todas as Matérias-Primas com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,3,25,M,15.0,True,107
+101,Validar resultado de consulta de Matéria-Prima vazia,Imported from sheet,Imported from sheet,M,Imported from sheet,3,25,M,17.0,True,109
+107,Acessar tela Consultar produtos finais sem estar logado a aplicação,Imported from sheet,Imported from sheet,M,Imported from sheet,3,21,M,13.0,True,115
+108,Listar todas os produtos finais com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,3,21,M,15.0,True,116
+110,Validar resultado de consulta de produtos finais,Imported from sheet,Imported from sheet,M,Imported from sheet,3,21,M,15.0,True,118
+111,Validar ações no campo Search em Ordens de Produção,Imported from sheet,Imported from sheet,M,Imported from sheet,3,35,M,34.0,True,119
+112,Validar ações no campo Search em BOM (matéria-prima),Imported from sheet,Imported from sheet,M,Imported from sheet,3,25,M,34.0,True,120
+113,Validar ações no campo Search em Produtos Finais,Imported from sheet,Imported from sheet,M,Imported from sheet,3,21,M,34.0,True,121
+115,Acessar tela de Detalhamento de OPs sem estar logado a aplicação,Imported from sheet,Imported from sheet,M,Imported from sheet,3,24,M,13.0,True,123
+117,Verificar se todos os dados da OP estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,3,24,M,22.0,True,125
+118,Verificar inserção de link em ordem de produção inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,3,24,M,23.0,True,126
+121,Acessar tela de consulta de matérias-primas sem estar logado a aplicação,Imported from sheet,Imported from sheet,M,Imported from sheet,3,26,M,13.0,True,129
+124,Validar resultado de consulta por matérias-primas vazia,Imported from sheet,Imported from sheet,M,Imported from sheet,3,26,M,17.0,True,132
+131,Listar todos os Produtos Finais com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,3,22,M,15.0,True,139
+132,Validar resultado de consulta por produtos finais vazia,Imported from sheet,Imported from sheet,M,Imported from sheet,3,22,M,17.0,True,140
+136,Validar redirecionamento para o login quando o usuário tenta navegar sem estar autenticado,Imported from sheet,Imported from sheet,M,Imported from sheet,3,12,M,13.0,True,144
+137,Validar se página é redirecionada ao colar link em outra aba do navegador,Imported from sheet,Imported from sheet,M,Imported from sheet,3,12,M,13.0,True,145
+138,Validar acesso de usuário Ativo e Inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,3,12,M,24.0,True,146
+139,Validar campo Nome,Imported from sheet,Imported from sheet,M,Imported from sheet,3,12,M,25.0,True,147
+140,Validar campo Senha,Imported from sheet,Imported from sheet,M,Imported from sheet,3,12,M,25.0,True,148
+141,Editar tipo de problema deixando todos os campos de texto do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,4,29,M,8.0,True,149
+142,Verificar duplicidade na edição de Máquinas,Imported from sheet,Imported from sheet,M,Imported from sheet,4,29,M,7.0,True,150
+143,Validar comportamento do campo Descrição,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,34.0,True,151
+144,Verificar presença do botão Cancelar,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,16.0,True,152
+145,Editar Máquina com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,29,M,6.0,True,153
+146,Cancelar cadastro de Máquinas com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,10.0,True,154
+147,Fechar tela de remoção antes de efetuar a ação de deletar,Imported from sheet,Imported from sheet,M,Imported from sheet,4,31,M,26.0,True,155
+148,Deletar Máquina com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,31,M,12.0,True,156
+149,Cancelar a remoção de uma Máquina,Imported from sheet,Imported from sheet,M,Imported from sheet,4,31,M,27.0,True,157
+150,Validar acesso a lista de Máquinas por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,4,30,M,20.0,True,158
+151,Paginar listagem de Máquinas ao atingir número máximo de linhas,Imported from sheet,Imported from sheet,M,Imported from sheet,4,30,M,19.0,True,159
+152,Verificar a presença do botão para criação de uma nova Máquina,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,16.0,True,160
+153,Verificar a presença de botões de edição para cada Máquina listada,Imported from sheet,Imported from sheet,M,Imported from sheet,4,30,M,16.0,True,161
+154,Verificar a presença de botões de exclusão para cada Máquina listada,Imported from sheet,Imported from sheet,M,Imported from sheet,4,30,M,16.0,True,162
+155,Tentar listar Máquina utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,4,30,M,24.0,True,163
+157,Listar todas as Máquina com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,30,M,15.0,True,165
+160,Validar controle de acesso para criação de nova Máquina,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,20.0,True,168
+161,Cadastrar Máquina com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,1.0,True,169
+162,Verificar duplicidade no cadastro de um tipo de operação já registrado,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,3.0,True,170
+163,Cadastrar Máquina sem informar nenhum campo obrigatório,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,4.0,True,171
+164,Cancelar cadastro de Máquina com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,28,M,2.0,True,172
+165,Validar redirecionamento a página de login em usuário não autenticado,Imported from sheet,Imported from sheet,M,Imported from sheet,4,50,M,13.0,True,173
+167,Validar usuário sem preencher campo $Matricula,Imported from sheet,Imported from sheet,M,Imported from sheet,4,50,M,31.0,True,175
+169,Validar campo $Matrícula,Imported from sheet,Imported from sheet,M,Imported from sheet,4,50,M,34.0,True,177
+170,Validar campo $Senha,Imported from sheet,Imported from sheet,M,Imported from sheet,4,50,M,34.0,True,178
+171,"Validar presença do botão ""Sair""",Imported from sheet,Imported from sheet,M,Imported from sheet,4,51,M,16.0,True,179
+172,Validar redirecionamento a página de login ao clicar no botão <Sair>,Imported from sheet,Imported from sheet,M,Imported from sheet,4,51,M,35.0,True,180
+173,Validar se sistema ainda ficará logado caso feche a sessão e abra novamente,Imported from sheet,Imported from sheet,M,Imported from sheet,4,51,M,36.0,True,181
+174,"Validar ação do clique no botão ""Sair"" na ausência de conexão com o servidor",Imported from sheet,Imported from sheet,M,Imported from sheet,4,51,M,37.0,True,182
+176,Cadastrar mais de um Administrador no sistema,Imported from sheet,Imported from sheet,M,Imported from sheet,4,52,M,38.0,True,184
+177,Cadastrar usuário informando senhas diferentes nos campos senha e confirmação,Imported from sheet,Imported from sheet,M,Imported from sheet,4,52,M,39.0,True,185
+179,Cadastrar Usuário deixando todos os campos do formulário sem preenchimento,Imported from sheet,Imported from sheet,M,Imported from sheet,4,52,M,4.0,True,187
+182,Cadastrar usuário sem registrar perfil,Imported from sheet,Imported from sheet,M,Imported from sheet,4,52,M,4.0,True,190
+183,Verificar ação do botão Excluir para um usuário listado e ativo,Imported from sheet,Imported from sheet,M,Imported from sheet,4,53,M,16.0,True,191
+184,Verificar ação do botão Adicionar para um usuário listado e ativo,Imported from sheet,Imported from sheet,M,Imported from sheet,4,53,M,16.0,True,192
+188,Listar usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,4,53,M,15.0,True,196
+189,Verificar presença do botão Editar para um usuário listado e ativo,Imported from sheet,Imported from sheet,M,Imported from sheet,4,53,M,16.0,True,197
+191,Validar ação de paginação,Imported from sheet,Imported from sheet,M,Imported from sheet,4,53,M,19.0,True,199
+192,Validar nomenclatura das colunas,Imported from sheet,Imported from sheet,M,Imported from sheet,4,53,M,16.0,True,200
+193,"Verificar layout do botão ""Editar"" para cada usuário cadastrado",Imported from sheet,Imported from sheet,M,Imported from sheet,4,27,M,16.0,True,201
+195,Tentar editar ID interno do usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,4,27,M,7.0,True,203
+197,Verificar duplicidade de nome na edição de usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,4,27,M,7.0,True,205
+198,Verificar duplicidade de matricula na edição de usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,4,27,M,7.0,True,206
+199,Verificar duplicidade de perfil administrador na edição de usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,4,27,M,38.0,True,207
+202,Selecionar dois ou mais filtros para visualização das OPs,Imported from sheet,Imported from sheet,M,Imported from sheet,4,54,M,21.0,True,210
+203,Verificar filtro de visualização,Imported from sheet,Imported from sheet,M,Imported from sheet,4,54,M,21.0,True,211
+205,Fechar visualização da Ordens de Produção,Imported from sheet,Imported from sheet,M,Imported from sheet,4,54,M,26.0,True,213
+206,Validar se todas as OPs disponíveis para planejamento são listadas,Imported from sheet,Imported from sheet,M,Imported from sheet,4,54,M,21.0,True,214
+207,Verificar presença do botão para expandir o sidebar de exibição das OPs,Imported from sheet,Imported from sheet,M,Imported from sheet,4,54,M,16.0,True,215
+208,Validar acesso a lista de tipos de problemas por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,4,33,M,20.0,True,216
+209,Paginar listagem de tipos de problemas ao atingir número máximo de linhas,Imported from sheet,Imported from sheet,M,Imported from sheet,4,33,M,19.0,True,217
+210,Verificar a presença do botão para criação de um novo tipo de problema,Imported from sheet,Imported from sheet,M,Imported from sheet,4,33,M,16.0,True,218
+211,Verificar a presença de botões de edição para cada tipo de problema listado,Imported from sheet,Imported from sheet,M,Imported from sheet,4,33,M,16.0,True,219
+212,Verificar a presença de botões de exclusão para cada tipo de problema listado,Imported from sheet,Imported from sheet,M,Imported from sheet,4,33,M,16.0,True,220
+213,Tentar listar Tipos de Problemas utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,4,33,M,24.0,True,221
+214,Listar todos tipos de problemas com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,33,M,15.0,True,222
+217,Validar controle de acesso para criação de novos tipos de problemas,Imported from sheet,Imported from sheet,M,Imported from sheet,4,32,M,20.0,True,225
+218,Cadastrar Tipos de Problemas com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,32,M,1.0,True,226
+219,Verificar duplicidade no cadastro de um tipo de problema já registrado,Imported from sheet,Imported from sheet,M,Imported from sheet,4,32,M,3.0,True,227
+220,Cadastrar tipo de problema sem informar nenhum campo obrigatório,Imported from sheet,Imported from sheet,M,Imported from sheet,4,32,M,4.0,True,228
+221,Cancelar cadastro de Tipo de Problema com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,32,M,2.0,True,229
+223,Verificar duplicidade na edição do tipo de problema,Imported from sheet,Imported from sheet,M,Imported from sheet,4,34,M,7.0,True,231
+225,Editar Tipo do Problema com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,34,M,6.0,True,233
+226,Cancelar edição de Tipo de Problema com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,34,M,10.0,True,234
+228,Deletar tipo de problema com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,55,M,12.0,True,236
+229,Cancelar a remoção de um tipo de problema,Imported from sheet,Imported from sheet,M,Imported from sheet,4,55,M,27.0,True,237
+233,Editar Tipo do Operação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,37,M,6.0,True,241
+234,Cancelar cadastro de Tipo de Operação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,37,M,10.0,True,242
+235,Validar acesso a lista de tipos de operações por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,4,35,M,20.0,True,243
+236,Paginar listagem de tipos de operações ao atingir número máximo de linhas,Imported from sheet,Imported from sheet,M,Imported from sheet,4,35,M,19.0,True,244
+237,Verificar a presença do botão para criação de um novo tipo de operação,Imported from sheet,Imported from sheet,M,Imported from sheet,4,35,M,16.0,True,245
+238,Verificar a presença de botões de edição para cada tipo de operação listado,Imported from sheet,Imported from sheet,M,Imported from sheet,4,35,M,16.0,True,246
+239,Verificar a presença de botões de exclusão para cada tipo de operação listado,Imported from sheet,Imported from sheet,M,Imported from sheet,4,35,M,16.0,True,247
+240,Tentar listar Tipos de operações utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,4,35,M,33.0,True,248
+242,Listar todos tipos de operações com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,35,M,15.0,True,250
+244,Validar controle de acesso para criação de novos tipos de operações,Imported from sheet,Imported from sheet,M,Imported from sheet,4,36,M,20.0,True,252
+245,Cadastrar Tipos de operações com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,4,36,M,1.0,True,253
+247,Cadastrar tipo de operação sem informar nenhum campo obrigatório,Imported from sheet,Imported from sheet,M,Imported from sheet,4,36,M,4.0,True,255
+249,Edit project with previously registered name,Imported from sheet,Imported from sheet,M,Imported from sheet,5,56,M,6.0,True,260
+250,Login with known credentials,Imported from sheet,Imported from sheet,M,Imported from sheet,5,56,M,40.0,True,261
+251,Create user with input validation,Imported from sheet,Imported from sheet,M,Imported from sheet,5,56,M,1.0,True,262
+252,Associate organization with user,Imported from sheet,Imported from sheet,M,Imported from sheet,5,56,M,6.0,True,263
+255,Ações do botão Voltar na tela de Histórico de Check-in (Administrador),Imported from sheet,Imported from sheet,M,Imported from sheet,5,56,M,34.0,True,266
+256,Teste estático de arquivo de tradução (plataforma Android),Imported from sheet,Imported from sheet,M,Imported from sheet,5,56,M,41.0,True,267
+257,Cancel deleting project,Imported from sheet,Imported from sheet,M,Imported from sheet,5,57,M,27.0,True,268
+259,Create organization with input validation,Imported from sheet,Imported from sheet,M,Imported from sheet,5,57,M,1.0,True,270
+260,Cancel project variable creation,Imported from sheet,Imported from sheet,M,Imported from sheet,5,57,M,2.0,True,271
+261,Cancel editing project variable,Imported from sheet,Imported from sheet,M,Imported from sheet,5,57,M,10.0,True,272
+262,Ocultar e exibir colunas do formulário de Configuração de Rotas,Imported from sheet,Imported from sheet,M,Imported from sheet,5,57,M,16.0,True,273
+263,Validar ações do Administrador com GaMMa inoperante,Imported from sheet,Imported from sheet,M,Imported from sheet,5,57,M,20.0,True,274
+264,Validar ações do Convidado com GaMMa inoperante,Imported from sheet,Imported from sheet,M,Imported from sheet,5,57,M,20.0,True,275
+265,Cancel deleting organization,Imported from sheet,Imported from sheet,M,Imported from sheet,5,57,M,27.0,True,276
+266,Edit user password with input validation,Imported from sheet,Imported from sheet,M,Imported from sheet,5,58,M,6.0,True,277
+268,Filter user with input validation,Imported from sheet,Imported from sheet,M,Imported from sheet,5,58,M,21.0,True,279
+269,Edit organization with previously registered name,Imported from sheet,Imported from sheet,M,Imported from sheet,5,58,M,7.0,True,280
+271,Edição de evento global considerando a opção de publicação para convidados e recepcionistas,Imported from sheet,Imported from sheet,M,Imported from sheet,5,58,M,6.0,True,282
+273,Cancel disassociating organization from user through list actions,Imported from sheet,Imported from sheet,M,Imported from sheet,5,59,M,10.0,True,284
+274,Create project with previously registered name,Imported from sheet,Imported from sheet,M,Imported from sheet,5,59,M,1.0,True,285
+275,Clear all filters (filter project),Imported from sheet,Imported from sheet,M,Imported from sheet,5,60,M,21.0,True,286
+276,Search organization with input validation,Imported from sheet,Imported from sheet,M,Imported from sheet,5,60,M,21.0,True,287
+278,Clear all filters (filter organization),Imported from sheet,Imported from sheet,M,Imported from sheet,5,61,M,21.0,True,289
+279,"Editar usuário com campo ""E-mail"" vazio.",Imported from sheet,Imported from sheet,M,Imported from sheet,6,64,M,8.0,True,290
+280,"Marcar convidados listados na pesquisa como ""convite enviado"" ""Event Driven System for Business Services Integration",Imported from sheet,Imported from sheet,M,Imported from sheet,6,66,M,21.0,True,291
+281,Fechamento do programa antes da execução ser finalizada.,Imported from sheet,Imported from sheet,M,Imported from sheet,6,74,M,36.0,True,292
+282,Limite de caracteres para o filtro Route_Desc,Imported from sheet,Imported from sheet,M,Imported from sheet,6,74,M,16.0,True,293
+283,Exibição de filtros aplicados no arquivo exportado,Imported from sheet,Imported from sheet,M,Imported from sheet,6,74,M,16.0,True,294
+284,Cancel disassociating user from organization through association list,Imported from sheet,Imported from sheet,M,Imported from sheet,6,72,M,10.0,True,295
+285,Disassociate organization from user through association list,Imported from sheet,Imported from sheet,M,Imported from sheet,6,72,M,6.0,True,296
+286,Create and View Project,Imported from sheet,Imported from sheet,M,Imported from sheet,6,72,M,1.0,True,297
+288,US11590 - Verificar informações exibidas na lista de pessoas,Imported from sheet,Imported from sheet,M,Imported from sheet,6,73,M,21.0,True,299
+289,US11589 - Verificar as organizações exibidas,Imported from sheet,Imported from sheet,M,Imported from sheet,6,73,M,21.0,True,300
+290,Limite de caracteres para os filtros,Imported from sheet,Imported from sheet,M,Imported from sheet,6,74,M,16.0,True,301
+291,US11516 - Verificar o tamanho máximo da foto,Imported from sheet,Imported from sheet,M,Imported from sheet,6,75,M,34.0,True,304
+292,Deselecionar convidados filtrados por status,Imported from sheet,Imported from sheet,M,Imported from sheet,6,67,M,16.0,True,306
+293,"Criar ""Outros Links"" com nome já adicionado em outro link no mesmo evento específico.",Imported from sheet,Imported from sheet,M,Imported from sheet,6,68,M,3.0,True,307
+294,Validar apresentação de detalhes no card de um app tipo Aplicativo sem versão.,Imported from sheet,Imported from sheet,M,Imported from sheet,6,69,M,16.0,True,308
+295,Pesquisar administrador por nome.,Imported from sheet,Imported from sheet,M,Imported from sheet,6,67,M,17.0,True,309
+296,Validar apresentação de detalhes no card de um app tipo Game sem versão,Imported from sheet,Imported from sheet,M,Imported from sheet,6,69,M,16.0,True,310
+297,"Validações de campos durante a criação de ""Outros Links"" evento específico",Imported from sheet,Imported from sheet,M,Imported from sheet,6,68,M,34.0,True,311
+298,Remover categoria adicionada na criação de evento,Imported from sheet,Imported from sheet,M,Imported from sheet,6,70,M,12.0,True,312
+299,Filtrar convidados por dados profissionais,Imported from sheet,Imported from sheet,M,Imported from sheet,6,67,M,21.0,True,313
+300,Limite de caracteres para peso da Cola,Imported from sheet,Imported from sheet,M,Imported from sheet,6,71,M,34.0,True,321
+301,Finalizar uso de Cola na Máquina de Cola com peso inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,6,71,M,44.0,True,322
+302,"Validação da seção ""Participação em Eventos"" ""Event Driven System for Business Services Integration",Imported from sheet,Imported from sheet,M,Imported from sheet,6,71,M,34.0,True,323
+303,Filtrar auditoria por (Usuário) como Administrador de dispositivo no MDM Web,Imported from sheet,Imported from sheet,M,Imported from sheet,6,66,M,21.0,True,329
+304,Verificar que ações realizadas por Super Usuário não são exibidas para Administrador de dispositivo no MDM Web,Imported from sheet,Imported from sheet,M,Imported from sheet,6,66,M,20.0,True,330
+305,"Validate reset function in the field""Reset All Counters"" in device ""Transponder"" ""Event Driven System for Business Services Integration",Imported from sheet,Imported from sheet,M,Imported from sheet,6,64,M,6.0,True,331
+308,Validar comportamento do campo Telefone,Imported from sheet,Imported from sheet,M,Imported from sheet,7,76,M,34.0,True,364
+314,Validar comportamento do campo Email,Imported from sheet,Imported from sheet,M,Imported from sheet,7,76,M,34.0,True,370
+317,Fechar tela de inativação antes de efetuar a ação de desabilitar,Imported from sheet,Imported from sheet,M,Imported from sheet,7,77,M,26.0,True,373
+318,Cancelar a inativação de um usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,7,77,M,10.0,True,374
+319,Inativar usuário com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,77,M,9.0,True,375
+320,Verificar a presença do botão para criação de um novo usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,7,78,M,16.0,True,376
+321,Verificar a presença de botões de inativação para cada usuário listado,Imported from sheet,Imported from sheet,M,Imported from sheet,7,78,M,16.0,True,377
+323,Listar todos os usuários com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,78,M,15.0,True,379
+324,Tentar listar usuários utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,78,M,24.0,True,380
+325,Validar acesso a lista de usuários por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,7,78,M,20.0,True,381
+326,Verificar a presença de botões de edição para cada usuário listado,Imported from sheet,Imported from sheet,M,Imported from sheet,7,78,M,16.0,True,382
+327,Paginar listagem de usuários ao atingir número máximo de linhas,Imported from sheet,Imported from sheet,M,Imported from sheet,7,78,M,19.0,True,383
+337,Validar acesso ao Search de usuários por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,7,80,M,20.0,True,393
+338,Tentar pesquisar usuários utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,80,M,24.0,True,394
+339,Realizar pesquisa informando caracteres especiais,Imported from sheet,Imported from sheet,M,Imported from sheet,7,80,M,34.0,True,395
+340,Realizar pesquisa informando espaços em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,7,80,M,34.0,True,396
+341,Pesquisar Usuários informando campo de pesquisa vazio,Imported from sheet,Imported from sheet,M,Imported from sheet,7,80,M,15.0,True,397
+342,Pesquisar por Usuário inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,7,80,M,17.0,True,398
+343,Pesquisar por Usuário inativados do sistema,Imported from sheet,Imported from sheet,M,Imported from sheet,7,80,M,21.0,True,399
+346,Validar usuário informando um nome sem domínio de e-mail,Imported from sheet,Imported from sheet,M,Imported from sheet,7,81,M,34.0,True,402
+347,Validar usuário informando um e-mail,Imported from sheet,Imported from sheet,M,Imported from sheet,7,81,M,34.0,True,403
+348,Validar campo Login,Imported from sheet,Imported from sheet,M,Imported from sheet,7,81,M,34.0,True,404
+353,Incluir dispositivo já existente no banco de dados,Imported from sheet,Imported from sheet,M,Imported from sheet,7,82,M,3.0,True,409
+354,Incluir dispositivo com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,82,M,1.0,True,410
+355,Cadastrar dispositivos deixando todos os campos em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,7,82,M,4.0,True,411
+356,"Verificar se existe ""TimeOut"" da sessão",Imported from sheet,Imported from sheet,M,Imported from sheet,7,82,M,18.0,True,412
+357,Validar adição de novo dispositivo junto ao Banco de Dados,Imported from sheet,Imported from sheet,M,Imported from sheet,7,82,M,1.0,True,413
+358,Verificar layout na tela para Cadastro de Dispositivo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,82,M,16.0,True,414
+359,"Validar campo ""Nome""",Imported from sheet,Imported from sheet,M,Imported from sheet,7,82,M,34.0,True,415
+360,"Validar campo ""Descrição""",Imported from sheet,Imported from sheet,M,Imported from sheet,7,82,M,34.0,True,416
+361,Verificar se perfil de usuário não Administrador consegue Listar algum dispositivo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,83,M,20.0,True,417
+362,Verificar se perfil de usuário Administrador consegue Listar algum dispositivo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,83,M,20.0,True,418
+363,Validar cabeçalhos da tabela,Imported from sheet,Imported from sheet,M,Imported from sheet,7,83,M,16.0,True,419
+364,Validar comportamento dos botão Exclusão,Imported from sheet,Imported from sheet,M,Imported from sheet,7,83,M,34.0,True,420
+365,Validar comportamento dos botão Edição,Imported from sheet,Imported from sheet,M,Imported from sheet,7,83,M,34.0,True,421
+366,Validar paginação da tabela: 10 linhas,Imported from sheet,Imported from sheet,M,Imported from sheet,7,83,M,19.0,True,422
+367,Verificar layout da tela de confirmação da Exclusão,Imported from sheet,Imported from sheet,M,Imported from sheet,7,84,M,16.0,True,423
+368,Deletar dispositivo com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,84,M,12.0,True,424
+369,Cancelar a remoção de um dispositivo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,84,M,27.0,True,425
+371,Verificar se perfil de usuário não Administrador consegue Excluir algum dispositivo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,84,M,20.0,True,427
+372,Verificar se perfil de usuário não Administrador consegue Editar algum dispositivo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,85,M,20.0,True,428
+373,Cancelar a edição de um dispositivo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,85,M,10.0,True,429
+374,Verificar clique fora do modal de edição,Imported from sheet,Imported from sheet,M,Imported from sheet,7,85,M,34.0,True,430
+375,Editar dispositivo deixando todos os campos de texto do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,7,85,M,8.0,True,431
+376,Validar layout de campos do formulário modal Edição,Imported from sheet,Imported from sheet,M,Imported from sheet,7,85,M,16.0,True,432
+378,Validar campo Descrição,Imported from sheet,Imported from sheet,M,Imported from sheet,7,85,M,34.0,True,434
+379,Verificar nomenclatura do campo Pesquisa,Imported from sheet,Imported from sheet,M,Imported from sheet,7,86,M,16.0,True,435
+380,"Verificar se campo é ""case sensitive""",Imported from sheet,Imported from sheet,M,Imported from sheet,7,86,M,34.0,True,436
+381,Verificar quantidade máxima de caracteres campo Pesquisa,Imported from sheet,Imported from sheet,M,Imported from sheet,7,86,M,34.0,True,437
+382,Validar ação do botão da Lupa,Imported from sheet,Imported from sheet,M,Imported from sheet,7,86,M,34.0,True,438
+383,Validar ação ao digitar caracteres no campo Pesquisa com iniciais de dispositivo cadastrado,Imported from sheet,Imported from sheet,M,Imported from sheet,7,86,M,34.0,True,439
+384,Validar ação ao digitar caracteres no campo Pesquisa com iniciais de disp. NÃO cadastrados,Imported from sheet,Imported from sheet,M,Imported from sheet,7,86,M,34.0,True,440
+385,Validar se usuário Não Administrador consegue realizar pesquisa no campo Pesquisa,Imported from sheet,Imported from sheet,M,Imported from sheet,7,86,M,20.0,True,441
+388,Validar acesso a criação de itens de avaliação por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,7,87,M,20.0,True,444
+389,Criar item de avaliação sem informar campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,7,87,M,4.0,True,445
+390,Criar item de avaliação com a mesma nomenclatura,Imported from sheet,Imported from sheet,M,Imported from sheet,7,87,M,3.0,True,446
+391,Criar item de avaliação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,87,M,1.0,True,447
+392,Cancelar criação de item de avaliação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,87,M,2.0,True,448
+393,Verificar clique fora da janela de criação,Imported from sheet,Imported from sheet,M,Imported from sheet,7,87,M,34.0,True,449
+394,Criar item de avaliação com o nome de um que tenha sido recentemente excluído,Imported from sheet,Imported from sheet,M,Imported from sheet,7,87,M,29.0,True,450
+395,Tentar criar item de avaliação utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,87,M,24.0,True,451
+396,Cancelar a remoção de um Item de Avaliação,Imported from sheet,Imported from sheet,M,Imported from sheet,7,88,M,27.0,True,452
+397,Deletar Itens de Avaliação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,88,M,12.0,True,453
+398,Paginar listagem de métricas ao atingir número máximo de linhas,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,19.0,True,454
+399,Verificar a presença do botão para edição de uma nova métrica,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,16.0,True,455
+400,Verificar a presença do botão para criação de uma nova métrica,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,16.0,True,456
+401,Verificar a presença de botões de exclusão para cada métrica listada,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,16.0,True,457
+402,Verificar a presença do botão para criação de um novo item,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,16.0,True,458
+403,Verificar a presença de botões de exclusão para cada item listado,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,16.0,True,459
+404,Tentar listar itens utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,24.0,True,460
+405,Validar acesso a lista de Itens por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,20.0,True,461
+406,Listar todas as métricas de um item com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,15.0,True,462
+407,Listar todos os Itens em tabs com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,15.0,True,463
+408,Validar nomenclatura das tabs listadas,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,16.0,True,464
+409,Paginar listagem de itens ao atingir número máximo de tabs,Imported from sheet,Imported from sheet,M,Imported from sheet,7,89,M,19.0,True,465
+410,Tentar criar métricas de avaliação utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,90,M,24.0,True,466
+411,Validar acesso a criação de métricas de avaliação por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,7,90,M,20.0,True,467
+412,Validar comportamento do campo Descrição Métricas,Imported from sheet,Imported from sheet,M,Imported from sheet,7,90,M,34.0,True,468
+413,Criar métrica de avaliação sem informar campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,7,90,M,4.0,True,469
+414,Criar métrica de avaliação sem possuir um item de avaliação,Imported from sheet,Imported from sheet,M,Imported from sheet,7,90,M,4.0,True,470
+415,Criar métricas de avaliação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,90,M,1.0,True,471
+416,Realizar busca de relatório com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,91,M,15.0,True,472
+417,Tentar pesquisar dispositivos utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,91,M,24.0,True,473
+418,Validar resultado ao buscar relatório pelo nome do usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,7,91,M,21.0,True,474
+419,Validar resultado ao buscar relatório pela data,Imported from sheet,Imported from sheet,M,Imported from sheet,7,91,M,21.0,True,475
+420,Validar comportamento do sistema para uma busca sem resultados,Imported from sheet,Imported from sheet,M,Imported from sheet,7,91,M,17.0,True,476
+424,Validar acesso a pesquisa de dispositivos por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,7,91,M,20.0,True,480
+425,Validações de campo Search,Imported from sheet,Imported from sheet,M,Imported from sheet,7,91,M,34.0,True,481
+426,"Validações de ação do botão ""Visualizar""",Imported from sheet,Imported from sheet,M,Imported from sheet,7,92,M,34.0,True,482
+427,Validar dados gerais da tela de visualização,Imported from sheet,Imported from sheet,M,Imported from sheet,7,92,M,16.0,True,483
+428,Validar tela de Sumário,Imported from sheet,Imported from sheet,M,Imported from sheet,7,92,M,16.0,True,484
+429,Validar informações detalhadas,Imported from sheet,Imported from sheet,M,Imported from sheet,7,92,M,16.0,True,485
+430,Filtrar Relatórios informando filtros de datas que não possuam relatórios associados,Imported from sheet,Imported from sheet,M,Imported from sheet,7,93,M,17.0,True,486
+431,Filtrar Relatórios informando filtros de datas que possuam relatórios associados,Imported from sheet,Imported from sheet,M,Imported from sheet,7,93,M,17.0,True,487
+432,Tentar realizar uma pesquisa de relatórios utilizando Data Inicial em formato inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,7,93,M,44.0,True,488
+433,Tentar realizar uma pesquisa de relatórios utilizando Data Final em formato inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,7,93,M,44.0,True,489
+434,Tentar realizar uma pesquisa de relatórios utilizando a primeira Data disponibilizada,Imported from sheet,Imported from sheet,M,Imported from sheet,7,93,M,44.0,True,490
+435,Tentar realizar uma pesquisa de relatórios utilizando a última Data disponibilizada,Imported from sheet,Imported from sheet,M,Imported from sheet,7,93,M,44.0,True,491
+436,Validar comportamento do campo Data Inicial,Imported from sheet,Imported from sheet,M,Imported from sheet,7,93,M,34.0,True,492
+437,Validar comportamento do campo Data Final,Imported from sheet,Imported from sheet,M,Imported from sheet,7,93,M,34.0,True,493
+438,Validar acesso para realizar Download de relatório,Imported from sheet,Imported from sheet,M,Imported from sheet,7,94,M,20.0,True,494
+439,Realizar download de um relatório de Avaliação,Imported from sheet,Imported from sheet,M,Imported from sheet,7,94,M,45.0,True,495
+441,Tentar gerar arquivo de Relatório em um formato diferente de PDF,Imported from sheet,Imported from sheet,M,Imported from sheet,7,94,M,47.0,True,497
+443,Validar consistência da estrutura do arquivo PDF gerada,Imported from sheet,Imported from sheet,M,Imported from sheet,7,94,M,16.0,True,499
+452,Editar Usuário no App Mobile e verificar sua modificação na Plataforma Web,Imported from sheet,Imported from sheet,M,Imported from sheet,7,95,M,6.0,True,508
+463,Cadastrar usuário informando email inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,7,97,M,43.0,True,519
+470,Cadastrar Usuário no App Mobile e verificar sua existência na Plataforma Web,Imported from sheet,Imported from sheet,M,Imported from sheet,7,97,M,6.0,True,526
+472,Verificar clique fora da janela de exclusão,Imported from sheet,Imported from sheet,M,Imported from sheet,7,98,M,34.0,True,528
+473,Excluir Usuário no App Mobile e verificar sua exclusão na Plataforma Web,Imported from sheet,Imported from sheet,M,Imported from sheet,7,98,M,34.0,True,529
+484,Validar que o App Mobile exibe a mesma quantidade de usuários presentes na Plataforma Web,Imported from sheet,Imported from sheet,M,Imported from sheet,7,106,M,15.0,True,540
+485,Cadastrar tipos de testes,Imported from sheet,Imported from sheet,M,Imported from sheet,7,99,M,1.0,True,541
+486,Verificar duplicidade no cadastro de um teste já registrado,Imported from sheet,Imported from sheet,M,Imported from sheet,7,99,M,3.0,True,542
+487,Cadastrar teste sem informar nenhum campo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,99,M,4.0,True,543
+488,Validar controle de acesso para criação de novos testes,Imported from sheet,Imported from sheet,M,Imported from sheet,7,99,M,20.0,True,544
+493,"Validar comportamento do Selectbox ""Nivel de Pesquisa""",Imported from sheet,Imported from sheet,M,Imported from sheet,7,99,M,34.0,True,549
+494,"Validar comportamento do Selectbox ""Equipamento Usado""",Imported from sheet,Imported from sheet,M,Imported from sheet,7,99,M,34.0,True,550
+496,Cancelar cadastro de teste com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,99,M,2.0,True,552
+497,Pesquisar teste com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,100,M,15.0,True,553
+498,Pesquisar por teste inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,7,100,M,17.0,True,554
+499,Validar acesso a pesquisa de testes por perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,7,100,M,20.0,True,555
+500,Tentar pesquisar testes utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,100,M,24.0,True,556
+503,Pesquisar testes informando campo de pesquisa vazio,Imported from sheet,Imported from sheet,M,Imported from sheet,7,100,M,34.0,True,559
+504,Pesquisar por testes inativados do sistema,Imported from sheet,Imported from sheet,M,Imported from sheet,7,100,M,21.0,True,560
+505,Editar tipos de testes,Imported from sheet,Imported from sheet,M,Imported from sheet,7,101,M,6.0,True,561
+506,Verificar duplicidade na edição do teste,Imported from sheet,Imported from sheet,M,Imported from sheet,7,101,M,7.0,True,562
+507,Editar teste sem informar nenhum campo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,101,M,8.0,True,563
+508,Validar controle de acesso para edição de testes,Imported from sheet,Imported from sheet,M,Imported from sheet,7,101,M,20.0,True,564
+517,Inativar teste com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,102,M,9.0,True,573
+518,Cancelar a inativação de um teste,Imported from sheet,Imported from sheet,M,Imported from sheet,7,102,M,10.0,True,574
+519,Verificar comportamento ao inativar item,Imported from sheet,Imported from sheet,M,Imported from sheet,7,102,M,,True,575
+520,Listar todas as baterias de testes com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,7,103,M,15.0,True,576
+523,Tentar listar testes utilizando um usuário inativo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,103,M,24.0,True,579
+524,Verificar a presença do botão para criação de um novo teste,Imported from sheet,Imported from sheet,M,Imported from sheet,7,103,M,16.0,True,580
+525,Verificar a presença de botões de inativação para cada teste listado,Imported from sheet,Imported from sheet,M,Imported from sheet,7,103,M,16.0,True,581
+526,Verificar a presença de botões de edição para cada teste listado,Imported from sheet,Imported from sheet,M,Imported from sheet,7,103,M,16.0,True,582
+527,Validar que o App Mobile exibe a mesma quantidade de testes presentes na Plataforma Web,Imported from sheet,Imported from sheet,M,Imported from sheet,7,103,M,15.0,True,583
+528,Paginar listagem de baterias de testes ao atingir número máximo de linhas,Imported from sheet,Imported from sheet,M,Imported from sheet,7,103,M,19.0,True,584
+529,Validar acesso de usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,7,104,M,20.0,True,585
+530,Realizar Login sem informar campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,7,104,M,31.0,True,586
+533,Validar presença do scroll na listagem de dispositivos,Imported from sheet,Imported from sheet,M,Imported from sheet,7,105,M,16.0,True,593
+534,Validar presença do botão <Realizar Teste> ao selecionar um dispositivo,Imported from sheet,Imported from sheet,M,Imported from sheet,7,105,M,16.0,True,594
+535,Validar presença do botão Voltar,Imported from sheet,Imported from sheet,M,Imported from sheet,7,105,M,16.0,True,595
+536,Testar ação do scroll em tela com quantidade de dispositivos inferior a 10,Imported from sheet,Imported from sheet,M,Imported from sheet,7,105,M,19.0,True,596
+538,Validar comportamento ao listar dispositivos em caso de perda de conexão,Imported from sheet,Imported from sheet,M,Imported from sheet,7,105,M,37.0,True,598
+539,Excluir um dispositivo na plataforma Web e testar sincronização da exclusão em Mobile,Imported from sheet,Imported from sheet,M,Imported from sheet,7,105,M,,True,599
+540,Validar acesso de Perfil não Adm à listagem de Dispositivos,Imported from sheet,Imported from sheet,M,Imported from sheet,7,105,M,20.0,True,600
+541,Cadastrar com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,8,107,M,43.0,True,601
+542,Cadastrar com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,8,107,M,1.0,True,602
+543,Cadastrar sem estar logado,Imported from sheet,Imported from sheet,M,Imported from sheet,8,107,M,13.0,True,603
+544,Cadastrar sem permissão,Imported from sheet,Imported from sheet,M,Imported from sheet,8,107,M,20.0,True,604
+545,Cadastrar sem campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,8,107,M,4.0,True,605
+546,Cadastrar com username existente,Imported from sheet,Imported from sheet,M,Imported from sheet,8,107,M,3.0,True,606
+549,Editar com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,6.0,True,609
+550,Editar com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,7.0,True,610
+551,Editar sem permissão,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,20.0,True,611
+552,Editar sem estar logado,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,13.0,True,612
+553,Editar sem campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,8.0,True,613
+554,Editar com username existente,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,7.0,True,614
+557,Listagem com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,8,109,M,15.0,True,617
+559,Validar resltado da consulta de usuários,Imported from sheet,Imported from sheet,M,Imported from sheet,8,109,M,21.0,True,619
+560,Validar resltado da consulta de usuários sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,8,109,M,17.0,True,620
+561,Primeiro Login do Administrador,Imported from sheet,Imported from sheet,M,Imported from sheet,9,110,M,28.0,True,621
+562,Alteração de Senha do Administrador,Imported from sheet,Imported from sheet,M,Imported from sheet,9,111,M,6.0,True,622
+563,Recuperação de senha de administrador,Imported from sheet,Imported from sheet,M,Imported from sheet,9,112,M,30.0,True,623
+564,Criação de Contrato,Imported from sheet,Imported from sheet,M,Imported from sheet,9,113,M,1.0,True,624
+565,Criaçao de Contrato apenas com Campos Obrigatorios,Imported from sheet,Imported from sheet,M,Imported from sheet,9,113,M,1.0,True,625
+566,Criação de Contrato campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,9,113,M,43.0,True,626
+567,Criação de contrato sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,113,M,13.0,True,627
+568,Criação de contrato sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,113,M,20.0,True,628
+569,Criação de Gestor,Imported from sheet,Imported from sheet,M,Imported from sheet,9,114,M,1.0,True,629
+570,Criação de gestor campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,9,114,M,4.0,True,630
+571,Criação de gestor campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,9,114,M,43.0,True,631
+572,Criação de gestor sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,114,M,13.0,True,632
+573,Criação de gestor sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,114,M,20.0,True,633
+574,Exclusão de Conta de Gestor,Imported from sheet,Imported from sheet,M,Imported from sheet,9,115,M,12.0,True,634
+575,Exclusão de conta de gestor sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,115,M,13.0,True,635
+576,Exclusão de conta de gestor sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,115,M,20.0,True,636
+577,Ordenação de Gestores,Imported from sheet,Imported from sheet,M,Imported from sheet,9,116,M,21.0,True,640
+578,Ordenação de Gestores - Sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,116,M,13.0,True,641
+579,Ordenação de Gestores - Sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,116,M,20.0,True,642
+581,Criação de Conta de Coach,Imported from sheet,Imported from sheet,M,Imported from sheet,9,118,M,1.0,True,644
+582,Criação de Conta de Coach - Campos Obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,9,118,M,4.0,True,645
+583,Criação de Conta de Coach - Campos Inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,9,118,M,43.0,True,646
+584,Criação de Conta de Coach - Sem Autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,118,M,13.0,True,647
+585,Criação de Conta de Coach - Sem Autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,118,M,20.0,True,648
+586,Ordenar lista de coaches cadastrados,Imported from sheet,Imported from sheet,M,Imported from sheet,9,119,M,,True,649
+587,Ordenar lista de coaches cadastrados - Sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,9,119,M,17.0,True,650
+588,Ordenar lista de coaches cadastrados - Sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,119,M,13.0,True,651
+589,Ordenar lista de coaches cadastrados - Sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,119,M,20.0,True,652
+590,Criação de Conta de Aluno,Imported from sheet,Imported from sheet,M,Imported from sheet,9,120,M,1.0,True,653
+591,Exclusão de Conta de Aluno,Imported from sheet,Imported from sheet,M,Imported from sheet,9,121,M,12.0,True,654
+592,Expansão das Informações de Aluno,Imported from sheet,Imported from sheet,M,Imported from sheet,9,122,M,22.0,True,655
+593,Expansão das Informações de Aluno - Sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,9,122,M,17.0,True,656
+594,Expansão das Informações de Aluno - Sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,122,M,13.0,True,657
+595,Expansão das Informações de Aluno - Sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,122,M,20.0,True,658
+596,Criação de Equipe,Imported from sheet,Imported from sheet,M,Imported from sheet,9,123,M,1.0,True,662
+597,Criação de Equipe - Campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,9,123,M,4.0,True,663
+598,Criação de Equipe - Campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,9,123,M,43.0,True,664
+599,Criação de Equipe - Sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,123,M,13.0,True,665
+600,Criação de Equipe - Sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,123,M,20.0,True,666
+601,"Atualização de Dados,",Imported from sheet,Imported from sheet,M,Imported from sheet,9,124,M,6.0,True,667
+602,Cadastro de Horarios,Imported from sheet,Imported from sheet,M,Imported from sheet,9,125,M,1.0,True,668
+603,Cadastro de Horarios - Sem campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,9,125,M,4.0,True,669
+604,"Cadastrar horários, com menos de duas horas diárias, na agenda.",Imported from sheet,Imported from sheet,M,Imported from sheet,9,125,M,49.0,True,670
+605,"Cadastrar horários, com mais de quatro horas diárias, na agenda.",Imported from sheet,Imported from sheet,M,Imported from sheet,9,125,M,49.0,True,671
+606,"Cadastrar horários, com menos de vintes horas semanais, na agenda.",Imported from sheet,Imported from sheet,M,Imported from sheet,9,125,M,49.0,True,672
+607,"Cadastrar horários, com mais de vintes horas semanais, na agenda.",Imported from sheet,Imported from sheet,M,Imported from sheet,9,125,M,49.0,True,673
+608,Visualização de Horarios da Equipe,Imported from sheet,Imported from sheet,M,Imported from sheet,9,126,M,15.0,True,674
+609,Visualização de Horarios da Equipe - Sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,9,126,M,17.0,True,675
+610,Visualização de Horarios da Equipe - Sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,126,M,13.0,True,676
+611,Visualização de Horarios da Equipe - Sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,126,M,20.0,True,677
+612,Registro de Atividade de Teste,Imported from sheet,Imported from sheet,M,Imported from sheet,9,127,M,1.0,True,678
+613,Registro de Atividade de Desenvolvimento,Imported from sheet,Imported from sheet,M,Imported from sheet,9,127,M,1.0,True,679
+614,Revisar atividade de Teste,Imported from sheet,Imported from sheet,M,Imported from sheet,9,128,M,6.0,True,680
+616,Desalocar Alunos da Equipe - Sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,130,M,13.0,True,682
+617,Desalocar Alunos da Equipe - Sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,130,M,20.0,True,683
+618,Desalocar Alunos da Equipe,Imported from sheet,Imported from sheet,M,Imported from sheet,9,130,M,6.0,True,684
+619,Buscas por Usuários,Imported from sheet,Imported from sheet,M,Imported from sheet,9,131,M,15.0,True,685
+622,Buscas por Usuários - Sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,133,M,13.0,True,688
+623,Buscas por Usuários - Sem autorização,Imported from sheet,Imported from sheet,M,Imported from sheet,9,133,M,20.0,True,689
+634,"Cadastrar horários irregulares, com permissão do coach",Imported from sheet,Imported from sheet,M,Imported from sheet,9,136,M,1.0,True,700
+636,Listagem de Equipes,Imported from sheet,Imported from sheet,M,Imported from sheet,9,137,M,15.0,True,702
+637,Atualizar nome de usuários contendo números.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,703
+638,Atualizar nome de usuários contendo caracteres especiais.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,704
+639,Atualizar cpf de usuários menos de onze números.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,705
+640,Atualizar cpf de usuários contendo letras.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,706
+641,Atualizar cpf de usuários contendo caracteres especiais.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,707
+642,Atualizar RG com menos de sete números.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,708
+643,Atualizar data de nascimento de usuários para menos de 16 anos.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,709
+644,Salvar sem selecionar perído.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,4.0,True,710
+645,Salvar sem selecionar um curso.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,4.0,True,711
+646,Atualizar CRA para um valor maior que dez,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,712
+647,Atualizar CRA para um valor menor que zero.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,713
+648,Atualizar dados de conclusão contendo letras.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,714
+649,Atualizar dados de conclusão contendo caracteres especiais.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,715
+650,Atualizar dados do histórico acadêmico com arquivos em outros formatos.,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,716
+651,Atualizar CRA com mais de duas casas após a vírgula,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,717
+652,Atualizar CRA com símbolo de menos,Imported from sheet,Imported from sheet,M,Imported from sheet,9,138,M,34.0,True,718
+653,Cadastrar usuário com permissão Básica,Imported from sheet,Imported from sheet,M,Imported from sheet,10,139,M,1.0,True,719
+654,Cadastro de usuário válido,Imported from sheet,Imported from sheet,M,Imported from sheet,10,139,M,1.0,True,720
+656,Cadastrar usuário com permissão Administrador,Imported from sheet,Imported from sheet,M,Imported from sheet,10,139,M,1.0,True,722
+657,Cadastrar usuário sem permissão,Imported from sheet,Imported from sheet,M,Imported from sheet,10,139,M,1.0,True,723
+658,Criar um Projeto válido,Imported from sheet,Imported from sheet,M,Imported from sheet,10,140,M,1.0,True,724
+659,Adicionar foto ao projeto,Imported from sheet,Imported from sheet,M,Imported from sheet,10,140,M,6.0,True,725
+660,Adicionar descrição ao projeto,Imported from sheet,Imported from sheet,M,Imported from sheet,10,140,M,6.0,True,726
+661,Editar um Projeto corretamente,Imported from sheet,Imported from sheet,M,Imported from sheet,10,141,M,6.0,True,727
+662,Alterar foto do projeto,Imported from sheet,Imported from sheet,M,Imported from sheet,10,141,M,6.0,True,728
+663,Editar descrição do projeto,Imported from sheet,Imported from sheet,M,Imported from sheet,10,141,M,6.0,True,729
+664,Criar uma Sprint válida,Imported from sheet,Imported from sheet,M,Imported from sheet,10,142,M,1.0,True,730
+665,Cadastrar um Ponto Positivo válido,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,1.0,True,731
+666,Cadastrar um Ponto Negativo válido,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,1.0,True,732
+667,Criar uma Sugestão válida,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,1.0,True,733
+668,Editar um Ponto Positivo,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,6.0,True,734
+669,Editar um Ponto Negativo,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,6.0,True,735
+670,Editar uma Sugestão,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,6.0,True,736
+671,Deletar uma Sugestão,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,12.0,True,737
+672,Deletar um Ponto Positivo,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,12.0,True,738
+673,Deletar um Ponto Negativo,Imported from sheet,Imported from sheet,M,Imported from sheet,10,143,M,12.0,True,739
+675,Excluir impedimento (ScrumMaster),Imported from sheet,Imported from sheet,M,Imported from sheet,10,144,M,12.0,True,741
+676,Excluir impedimento (Criador),Imported from sheet,Imported from sheet,M,Imported from sheet,10,144,M,12.0,True,742
+679,Excluir impedimento (desenvolvedor),Imported from sheet,Imported from sheet,M,Imported from sheet,10,144,M,12.0,True,745
+680,Mover impedimentos entre os quadros,Imported from sheet,Imported from sheet,M,Imported from sheet,10,144,M,6.0,True,746
+681,Inserir Product com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,2,148,M,1.0,True,747
+682,Inserir Product com valores inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,2,148,M,43.0,True,748
+683,Remover Product através do Protheus,Imported from sheet,Imported from sheet,M,Imported from sheet,2,149,M,12.0,True,749
+684,Modificar um Product com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,2,150,M,6.0,True,750
+685,Modificar um Product com valores inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,2,150,M,44.0,True,751
+686,Inserir registro com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,2,151,M,1.0,True,752
+688,Inserir registro com um valor já existente,Imported from sheet,Imported from sheet,M,Imported from sheet,2,151,M,3.0,True,754
+689,Campos Obrigatórios Vazios,Imported from sheet,Imported from sheet,M,Imported from sheet,2,151,M,4.0,True,755
+690,Limite de caracteres para a inserção,Imported from sheet,Imported from sheet,M,Imported from sheet,2,151,M,34.0,True,756
+691,Modificar um registro com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,2,153,M,6.0,True,757
+692,Cancelar a modificação,Imported from sheet,Imported from sheet,M,Imported from sheet,2,151,M,10.0,True,758
+693,Campos obrigatórios vazios,Imported from sheet,Imported from sheet,M,Imported from sheet,2,153,M,8.0,True,759
+694,Limite de caracteres para a modificação,Imported from sheet,Imported from sheet,M,Imported from sheet,2,153,M,34.0,True,760
+695,Remover registro com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,2,152,M,12.0,True,761
+696,Cancelar registro com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,2,151,M,2.0,True,762
+702,Limite de caracteres,Imported from sheet,Imported from sheet,M,Imported from sheet,2,156,M,34.0,True,768
+709,Cadastro de perfil com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,157,M,43.0,True,775
+710,Cadastro de perfil com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,157,M,1.0,True,776
+711,Cadastro de perfil com identificador existente,Imported from sheet,Imported from sheet,M,Imported from sheet,11,157,M,3.0,True,777
+712,Cadatro de perfil com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,157,M,4.0,True,778
+713,Cancelar cadastro de peril com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,157,M,2.0,True,779
+714,Editar perfil com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,44.0,True,780
+715,Editar perfil com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,6.0,True,781
+716,Editar perfil modificando para um valor existente,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,7.0,True,782
+717,Editar perfil sem campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,8.0,True,783
+718,Cancelar edição do perfil,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,10.0,True,784
+719,Verificar se todos os dados do perfil estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,22.0,True,785
+720,Verificar inserção de link para perfil inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,23.0,True,786
+721,Listagem de Perfis - botões ativar/desativar,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,15.0,True,787
+722,Paginação de perfis - avançar páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,160,M,19.0,True,788
+723,Paginação de perfis - voltar páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,160,M,19.0,True,789
+724,Listagem de Perfis - Layout,Imported from sheet,Imported from sheet,M,Imported from sheet,11,160,M,16.0,True,790
+725,Paginação de perfis - única página,Imported from sheet,Imported from sheet,M,Imported from sheet,11,160,M,19.0,True,791
+727,Paginação de Permissões - avançar páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,163,M,19.0,True,793
+728,Paginação de Permissões - voltar páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,163,M,19.0,True,794
+729,Paginação de Permissões - única página,Imported from sheet,Imported from sheet,M,Imported from sheet,11,163,M,19.0,True,795
+730,Listagem de Planos SLA - layout,Imported from sheet,Imported from sheet,M,Imported from sheet,11,165,M,16.0,True,796
+731,Listagem de Planos SLA - botões ativar/desativar,Imported from sheet,Imported from sheet,M,Imported from sheet,11,168,M,34.0,True,797
+732,Cadastro de planos SLA com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,164,M,1.0,True,798
+733,Cadastro de planos SLA com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,164,M,43.0,True,799
+734,Cadastro de planos SLA com dados inválidos - Regra de Negócio,Imported from sheet,Imported from sheet,M,Imported from sheet,11,164,M,49.0,True,800
+735,Cancelar cadastro de SLA com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,164,M,2.0,True,801
+736,Cadastrar SLA sem campos obrigatórios preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,164,M,4.0,True,802
+737,Editar plano SLA com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,167,M,6.0,True,803
+738,Editar plano SLA com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,167,M,44.0,True,804
+740,Cancelar edição da SLA com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,167,M,10.0,True,806
+741,Verificar se todos os dados da SLA estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,167,M,22.0,True,807
+742,Verificar inserção de link de SLAinexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,11,167,M,23.0,True,808
+743,Visualizar Planos SLA,Imported from sheet,Imported from sheet,M,Imported from sheet,11,165,M,15.0,True,809
+744,Restrições no cadastro de um plano de SLA,Imported from sheet,Imported from sheet,M,Imported from sheet,11,167,M,49.0,True,810
+745,Restrições na edição de um plano SLA,Imported from sheet,Imported from sheet,M,Imported from sheet,11,167,M,50.0,True,811
+746,Cadastro de filas de atendimento com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,169,M,1.0,True,812
+747,Cadastro de filas de atendimento com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,169,M,43.0,True,813
+748,Formulário de cadastro de filas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,169,M,4.0,True,814
+749,Edição de filas com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,171,M,6.0,True,815
+750,Editar filas de atendimento com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,171,M,44.0,True,816
+751,Formulário de edição de filas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,171,M,8.0,True,817
+752,Cancelar edição da fila com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,171,M,10.0,True,818
+753,Verificar se todos os dados da fila estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,171,M,22.0,True,819
+754,Verificar inserção de link de fila inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,11,171,M,23.0,True,820
+755,Listagem de filas de atendimento,Imported from sheet,Imported from sheet,M,Imported from sheet,11,170,M,15.0,True,821
+756,Ativar/Desativar fila de atendimento,Imported from sheet,Imported from sheet,M,Imported from sheet,11,172,M,6.0,True,822
+757,Paginação de filas - avançar páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,170,M,19.0,True,823
+758,Paginação de filas - voltar páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,170,M,19.0,True,824
+759,Paginação de filas - única página,Imported from sheet,Imported from sheet,M,Imported from sheet,11,170,M,19.0,True,825
+760,Visualizar fila de atendimento,Imported from sheet,Imported from sheet,M,Imported from sheet,11,170,M,51.0,True,826
+761,Validar resultado da consulta da fila sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,11,170,M,17.0,True,827
+762,Listagem de Produtos - botões,Imported from sheet,Imported from sheet,M,Imported from sheet,11,174,M,15.0,True,828
+763,Paginação de Produtos - avançar páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,174,M,19.0,True,829
+764,Paginação de Produtos - voltar páginas,Imported from sheet,Imported from sheet,M,Imported from sheet,11,174,M,19.0,True,830
+765,Paginação de Produtos - única página,Imported from sheet,Imported from sheet,M,Imported from sheet,11,174,M,19.0,True,831
+766,Listagem de Produtos - layout,Imported from sheet,Imported from sheet,M,Imported from sheet,11,174,M,16.0,True,832
+767,Validar resultado da consulta de produtos sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,11,174,M,17.0,True,833
+768,Cadastro de produtos com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,173,M,1.0,True,834
+769,Cadastro de produtos com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,173,M,43.0,True,835
+770,Cancelar cadastro de produto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,173,M,2.0,True,836
+771,Cadastrar produto sem campos obrigatórios preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,173,M,4.0,True,837
+772,Listagem de Produtos - botões ativar/desativar,Imported from sheet,Imported from sheet,M,Imported from sheet,11,174,M,15.0,True,838
+773,Editar produto com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,175,M,6.0,True,839
+774,Editar produto com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,175,M,44.0,True,840
+776,Restrições na edição de produto,Imported from sheet,Imported from sheet,M,Imported from sheet,11,175,M,50.0,True,842
+781,Cancelar edição do produto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,175,M,10.0,True,847
+782,Verificar se todos os dados do produto estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,11,175,M,22.0,True,848
+783,Verificar inserção de link do produto inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,11,175,M,23.0,True,849
+784,Verificar acesso por papel não autorizado,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,20.0,True,850
+785,Tentar inserir sem conexão com o servidor,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,37.0,True,851
+786,Fechar a tela antes de inserir área comum,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,26.0,True,852
+787,Cadastar área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,1.0,True,853
+788,Cancelar cadastro de área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,2.0,True,854
+789,Cadastrar área comum com nome já existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,3.0,True,855
+790,Cadastrar área comum com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,4.0,True,856
+791,Cadastrar área comum com título previamente excluído,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,29.0,True,857
+792,Cadastrar área comum com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,43.0,True,858
+793,Editar informações da área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,178,M,6.0,True,859
+795,Cancelar edição da área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,178,M,10.0,True,861
+796,Verificar se todos os dados da área comum estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,178,M,22.0,True,862
+797,Verificar inserção de link da área comum inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,178,M,23.0,True,863
+800,Editar entidade alterando o nome para um existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,178,M,7.0,True,866
+801,Listar todas as áreas comuns com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,179,M,15.0,True,867
+802,Validar resultado da listagem sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,12,179,M,17.0,True,868
+804,Validar resultado da consulta de áreas comuns,Imported from sheet,Imported from sheet,M,Imported from sheet,12,179,M,21.0,True,870
+805,Visualizar dados da entidade,Imported from sheet,Imported from sheet,M,Imported from sheet,12,179,M,51.0,True,871
+806,Verificar permissão de acesso à página,Imported from sheet,Imported from sheet,M,Imported from sheet,12,179,M,20.0,True,872
+807,Verificar dados retornados,Imported from sheet,Imported from sheet,M,Imported from sheet,12,179,M,16.0,True,873
+808,Excluir área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,180,M,12.0,True,874
+810,Fechar a tela antes de executar exclusão,Imported from sheet,Imported from sheet,M,Imported from sheet,12,180,M,26.0,True,876
+837,Fechar a tela antes de inserir condomínio,Imported from sheet,Imported from sheet,M,Imported from sheet,12,184,M,26.0,True,903
+838,Cadastar condomínio com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,184,M,1.0,True,904
+839,Cancelar cadastro de condomínio com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,184,M,2.0,True,905
+840,Cadastrar condomínio com CNPJ já existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,184,M,3.0,True,906
+841,Cadastrar condomínio com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,184,M,4.0,True,907
+842,Cadastrar condomínio com CNPJ previamente excluído,Imported from sheet,Imported from sheet,M,Imported from sheet,12,184,M,29.0,True,908
+843,Cadastrar condomínio com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,184,M,43.0,True,909
+844,Editar informações do condomínio com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,6.0,True,910
+845,Editar condomínio deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,8.0,True,911
+846,Cancelar edição do condomínio com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,10.0,True,912
+847,Verificar se todos os dados do condomínio estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,22.0,True,913
+848,Verificar inserção de link do condomínio inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,23.0,True,914
+851,Editar informando um CNPJ já existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,7.0,True,917
+852,Editar informando um CNPJ inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,10.0,True,918
+860,Acessar página sem fazer login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,186,M,55.0,True,926
+863,Cadastar moradia com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,187,M,1.0,True,929
+864,Cancelar cadastro de moradia com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,187,M,2.0,True,930
+865,Cadastrar moradia com identificador já existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,187,M,3.0,True,931
+866,Cadastrar moradia com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,187,M,4.0,True,932
+867,Cadastrar moraia com número previamente excluído,Imported from sheet,Imported from sheet,M,Imported from sheet,12,187,M,29.0,True,933
+868,Cadastrar moradia com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,187,M,43.0,True,934
+878,Cancelar edição da moradia com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,189,M,10.0,True,944
+883,Editar informando um identificador já existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,189,M,7.0,True,949
+885,Fechar a tela antes de inserir chamado,Imported from sheet,Imported from sheet,M,Imported from sheet,12,190,M,26.0,True,951
+886,Cadastar chamado com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,190,M,1.0,True,952
+887,Cancelar chamado de moradia com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,190,M,2.0,True,953
+888,Cadastrar chamado com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,190,M,4.0,True,954
+889,Editar chamado deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,12,191,M,8.0,True,955
+890,Cancelar edição do chamado com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,191,M,10.0,True,956
+891,Verificar se todos os dados do chamado estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,191,M,22.0,True,957
+892,Verificar inserção de link de chamado inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,191,M,23.0,True,958
+895,Verificar se estados possíveis do chamado estão de acordo,Imported from sheet,Imported from sheet,M,Imported from sheet,12,191,M,56.0,True,961
+896,Listar todas o chamados com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,192,M,15.0,True,962
+899,Validar resultado da consulta de chamados,Imported from sheet,Imported from sheet,M,Imported from sheet,12,192,M,21.0,True,965
+904,Excluir chamado comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,193,M,12.0,True,970
+907,Tentar excluir sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,193,M,55.0,True,973
+908,Tentar excluir sem ter permissão,Imported from sheet,Imported from sheet,M,Imported from sheet,12,193,M,20.0,True,974
+910,Fechar a tela antes de reservar área comum,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,26.0,True,976
+911,Reservar área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,1.0,True,977
+912,Cancelar reserva de área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,2.0,True,978
+913,Reservar área em data já reservada,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,3.0,True,979
+914,Reservar área comum com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,4.0,True,980
+915,Reservar área comum com data previamente excluída,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,29.0,True,981
+916,Reservar área comum com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,43.0,True,982
+917,Tentar reservar sem ter permissão,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,20.0,True,983
+918,Tentar reservar sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,55.0,True,984
+919,Editar informações da reserva com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,6.0,True,985
+920,Editar reserva deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,8.0,True,986
+921,Cancelar edição da reserva com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,10.0,True,987
+922,Verificar se todos os dados da reserva estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,22.0,True,988
+923,Verificar inserção de link da reserva inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,23.0,True,989
+925,Tentar alterar sem permissão,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,20.0,True,991
+926,Tentar alterar sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,55.0,True,992
+927,Excluir reserva com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,196,M,12.0,True,993
+932,Listar todas as reservas com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,197,M,15.0,True,998
+935,Validar resultado da consulta de reservas,Imported from sheet,Imported from sheet,M,Imported from sheet,12,197,M,21.0,True,1001
+941,Fechar a tela antes de cadastrar usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,26.0,True,1007
+942,Cadastrar usuário comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,1.0,True,1008
+944,Cadastrar usuário com e-mail já cadastrado,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,3.0,True,1010
+945,Cadasrar usuário com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,4.0,True,1011
+946,Cadastrar usuário com data previamente excluída,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,29.0,True,1012
+947,Cadastrar usuário com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,43.0,True,1013
+948,Tentar cadastrar sem ter permissão,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,20.0,True,1014
+949,Tentar cadastrar sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,55.0,True,1015
+955,Recuperar senha com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,200,M,30.0,True,1021
+956,Recuperar senha com e-mail inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,12,200,M,57.0,True,1022
+960,Fechar a tela antes de inserir enquete,Imported from sheet,Imported from sheet,M,Imported from sheet,12,201,M,26.0,True,1026
+961,Cadastar enquete com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,201,M,1.0,True,1027
+962,Cancelar cadastro de enquete com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,201,M,2.0,True,1028
+965,Editar informações da enquete com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,202,M,6.0,True,1031
+966,Editar enquete deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,12,202,M,8.0,True,1032
+967,Cancelar edição da enquete com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,202,M,10.0,True,1033
+968,Verificar se todos os dados da enquete estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,12,202,M,22.0,True,1034
+969,Verificar inserção de link da enquete inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,202,M,23.0,True,1035
+973,Listar todas as enquetes com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,203,M,15.0,True,1039
+986,Registrar voto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,205,M,1.0,True,1052
+987,Cancelar voto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,205,M,2.0,True,1053
+988,Cadastrar voto sem selecionar item,Imported from sheet,Imported from sheet,M,Imported from sheet,12,205,M,4.0,True,1054
+990,Tentar votar sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,205,M,55.0,True,1056
+996,Fazer logout na aplicação,Imported from sheet,Imported from sheet,M,Imported from sheet,13,208,M,35.0,True,1064
+999,Cadastar transação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,209,M,1.0,True,1067
+1000,Cancelar cadastro de transacação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,209,M,2.0,True,1068
+1001,Cadastrar transação com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,209,M,4.0,True,1069
+1002,Cadastrar transação com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,209,M,43.0,True,1070
+1003,Editar informações da transação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,210,M,6.0,True,1071
+1004,Editar transação deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,13,210,M,8.0,True,1072
+1005,Cancelar edição da transação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,210,M,10.0,True,1073
+1006,Verificar se todos os dados da transação estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,210,M,22.0,True,1074
+1007,Verificar inserção de link da transação inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,13,210,M,23.0,True,1075
+1010,Listar todas as transações com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,211,M,15.0,True,1078
+1021,Listar todas as categorias com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,213,M,15.0,True,1089
+1030,Cadastar categoria com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,214,M,1.0,True,1098
+1031,Cancelar cadastro de categoria com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,214,M,2.0,True,1099
+1032,Cadastrar categoria com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,214,M,4.0,True,1100
+1033,Cadastrar categoria com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,214,M,43.0,True,1101
+1034,Editar informações da categoria com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,215,M,6.0,True,1102
+1035,Editar categoria deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,13,215,M,8.0,True,1103
+1036,Cancelar edição da categoria com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,215,M,10.0,True,1104
+1037,Verificar se todos os dados da categoria estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,215,M,22.0,True,1105
+1038,Verificar inserção de link da categoria inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,13,215,M,23.0,True,1106
+1050,Listar todas as contas com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,218,M,15.0,True,1118
+1053,Validar resultado da consulta de contas,Imported from sheet,Imported from sheet,M,Imported from sheet,13,218,M,21.0,True,1121
+1059,Cadastar conta com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,219,M,1.0,True,1127
+1060,Cancelar cadastro de conta com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,219,M,2.0,True,1128
+1061,Cadastrar conta com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,219,M,4.0,True,1129
+1062,Cadastrar conta com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,219,M,43.0,True,1130
+1063,Editar informações da conta com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,220,M,6.0,True,1131
+1064,Editar conta deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,13,220,M,8.0,True,1132
+1065,Cancelar edição da conta com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,220,M,10.0,True,1133
+1066,Verificar se todos os dados da conta estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,13,220,M,22.0,True,1134
+1067,Verificar inserção de link da conta inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,13,220,M,23.0,True,1135
+1082,Login com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,40.0,True,1150
+1086,Acessar a tela protegida sem ter realizado autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,13.0,True,1154
+1087,Testar com senha no formato inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,25.0,True,1155
+1089,Registrar com campos obrigatórios não preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,14,234,M,4.0,True,1157
+1090,Registrar com senha diferente da confirmação,Imported from sheet,Imported from sheet,M,Imported from sheet,14,234,M,39.0,True,1158
+1091,Registrar com nome de usuário existente,Imported from sheet,Imported from sheet,M,Imported from sheet,14,234,M,3.0,True,1159
+1092,Registrar com senha no formato inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,234,M,43.0,True,1160
+1094,Editar projeto com data inicial maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,62.0,True,1162
+1095,Editar projeto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,6.0,True,1163
+1096,Editar projeto com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,8.0,True,1164
+1097,Verificar se todos os dados do projeto estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,22.0,True,1165
+1098,Verificar inserção de link de projeto inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,23.0,True,1166
+1100,Cancelar edição do projeto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,10.0,True,1168
+1101,Editar projeto com data inválida,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,44.0,True,1169
+1102,Cadastro de projeto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,236,M,1.0,True,1170
+1103,Cancelar cadastro de projeto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,236,M,2.0,True,1171
+1106,Cadastro de projeto com data inicial maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,14,236,M,62.0,True,1174
+1107,Cadastro de projeto com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,236,M,4.0,True,1175
+1115,Listar US cadastradas com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,238,M,15.0,True,1183
+1116,Listar US sem dados cadastrados,Imported from sheet,Imported from sheet,M,Imported from sheet,14,238,M,17.0,True,1184
+1120,Visualizar dados da <entidade>,Imported from sheet,Imported from sheet,M,Imported from sheet,14,238,M,16.0,True,1188
+1121,Cadastro de User Story com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,239,M,1.0,True,1189
+1122,Cadastro de US com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,239,M,4.0,True,1190
+1123,Cancelar cadastro com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,239,M,2.0,True,1191
+1127,Editar User story com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,240,M,6.0,True,1195
+1128,Editar User story sem campos obrigatórios preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,14,240,M,8.0,True,1196
+1129,Cancelar edição com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,240,M,10.0,True,1197
+1130,Verificar se todos os dados da <entidade> estão sendo exibidos,Imported from sheet,Imported from sheet,M,Imported from sheet,14,240,M,16.0,True,1198
+1131,Verificar inserção de link de <entidade> inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,14,240,M,23.0,True,1199
+1133,Excluir US com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,241,M,12.0,True,1201
+1137,Cadastro de Sprint com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,1.0,True,1205
+1138,Cadastro de Sprint com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,4.0,True,1206
+1142,Cadastro de sprint com data inicial maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,62.0,True,1210
+1143,Editar Sprint com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,6.0,True,1211
+1144,Editar Sprint sem campos obrigatórios preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,8.0,True,1212
+1149,Editar sprint fora do período do projeto,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,64.0,True,1217
+1150,Editar sprint com período conflitante com outra,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,65.0,True,1218
+1151,Editar sprint com data inicial maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,62.0,True,1219
+1152,Listar Sprints cadastradas com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,244,M,15.0,True,1220
+1153,Listar Sprints sem dados cadastrados,Imported from sheet,Imported from sheet,M,Imported from sheet,14,244,M,17.0,True,1221
+1157,Cadastrar <entidade> sem campos obrigatórios preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,14,246,M,4.0,True,1225
+1158,Cancelar cadastro de <entidade> com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,246,M,2.0,True,1226
+1161,Cadastrar <entidade> com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,246,M,1.0,True,1229
+1162,Editar informações da <entidade> com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,247,M,6.0,True,1230
+1164,Cancelar edição da <entidade> com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,247,M,10.0,True,1232
+1169,Adicionar critério de aceitação previamente cadastrado,Imported from sheet,Imported from sheet,M,Imported from sheet,14,249,M,21.0,True,1237
+1170,"Cadastrar novo critério, adicionar e salvar",Imported from sheet,Imported from sheet,M,Imported from sheet,14,249,M,6.0,True,1238
+1171,Adicionar critério previamente cadastrado e cancelar,Imported from sheet,Imported from sheet,M,Imported from sheet,14,249,M,10.0,True,1239
+1172,Adicionar critério previamente cadastrado e fechar tela,Imported from sheet,Imported from sheet,M,Imported from sheet,14,249,M,26.0,True,1240
+1173,Cadastrar novo critério e cancelar,Imported from sheet,Imported from sheet,M,Imported from sheet,14,249,M,10.0,True,1241
+1174,Cadastrar novo critério e fechar tela,Imported from sheet,Imported from sheet,M,Imported from sheet,14,249,M,26.0,True,1242
+1176,Listar todas as <entidades> com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,250,M,15.0,True,1244
+1178,Validar resultado da consulta de <entidade> sem dados,Imported from sheet,Imported from sheet,M,Imported from sheet,14,250,M,17.0,True,1246
+1184,Cadastrar <entidade> com ID existente,Imported from sheet,Imported from sheet,M,Imported from sheet,14,251,M,3.0,True,1252
+1189,O campo senha deve seguir regra <regra>,Imported from sheet,Imported from sheet,M,Imported from sheet,15,252,M,25.0,True,1257
+1219,Validar resultado da consulta (filtro) de <entidade>,Imported from sheet,Imported from sheet,M,Imported from sheet,15,258,M,21.0,True,1287
+1221,Verificar comportamento <comportamento> do campo <campo>,Imported from sheet,Imported from sheet,M,Imported from sheet,15,258,M,34.0,True,1289
+1230,Validar Termos de Uso e Política de Privacidade,Imported from sheet,Imported from sheet,M,Imported from sheet,16,260,M,,True,1298
+1237,Cadastrar <entidade> com campos inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,16,259,M,43.0,True,1305
+1240,Validar componentes da listagem de usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,16,261,M,16.0,True,1308
+1242,Validar paginação do usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,16,261,M,19.0,True,1310
+1245,Validar Formulários de Usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,16,261,M,,True,1313
+1248,Cancelar edição do usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,16,262,M,10.0,True,1316
+1249,Editar Usuário com Sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,16,262,M,6.0,True,1317
+1250,Validar Regras do Formulário de Edição de Usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,16,262,M,8.0,True,1318
+1266,Criar perfil com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,16,263,M,10.0,True,1334
+1267,Cancelar Criação de Perfil,Imported from sheet,Imported from sheet,M,Imported from sheet,16,263,M,2.0,True,1335
+1268,Validar Regras do Formulário de Criação de Perfil,Imported from sheet,Imported from sheet,M,Imported from sheet,16,263,M,4.0,True,1336
+1272,Cancelar Edição de Perfil,Imported from sheet,Imported from sheet,M,Imported from sheet,16,264,M,10.0,True,1340
+1273,Editar Perfil com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,16,264,M,6.0,True,1341
+1274,Validar Regras do Formulário de Edição de Perfil,Imported from sheet,Imported from sheet,M,Imported from sheet,16,264,M,8.0,True,1342
+1280,Validar Componentes da Listagem de Perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,16,265,M,16.0,True,1348
+1282,Validar Paginação de Perfis,Imported from sheet,Imported from sheet,M,Imported from sheet,16,265,M,19.0,True,1350
