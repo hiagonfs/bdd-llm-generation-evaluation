@@ -1,35 +1,32 @@
 # BDD LLM Generation Evaluation
 
-> Replication package for the experimental evaluation of Large Language Models (LLMs) and prompting strategies for automated Behavior-Driven Development (BDD) scenario generation.
+Replication package for the experimental evaluation reported in:
 
-This repository contains the datasets, prompts, generated BDD scenarios, evaluation metrics, human assessments, statistical analyses, and supporting scripts used in the study:
+**“Automating BDD Scenario Generation with LLMs: A Comprehensive Evaluation of Accuracy, Stability, and Practitioner Perception.”**
 
-**“Automating BDD Scenario Generation]{Automating BDD Scenario Generation with LLMs: A Comprehensive Evaluation of Accuracy, Stability, and Practitioner Perception.”**
+The study evaluates five open-weight language models and three prompting strategies for generating one Portuguese BDD scenario in Gherkin syntax from each natural-language software test case.
 
----
+## Online Resource for the manuscript
 
-## 📌 Overview
+Material moved out of the article for concision is indexed in [online-resource/](online-resource/):
 
-This study investigates the use of Large Language Models for automatically generating BDD scenarios in **Gherkin syntax** from natural-language software test cases.
+- [full zero-shot, one-shot, and few-shot prompt templates](online-resource/prompts.md);
+- [metric implementations, operational equations, and convergence derivation](online-resource/methodological-details.md);
+- [secondary methodological and inferential tables](online-resource/secondary-tables.md).
 
-The experimental evaluation compares:
+## Experimental design
 
-- **5 open-weight LLMs**
-- **3 prompting strategies**
-  - Zero-shot
-  - One-shot
-  - Few-shot
-- **259 software test cases**
-- **10 independent runs per configuration**
-- **38,850 generated BDD scenarios**
+- 259 source test cases;
+- 5 models;
+- 3 prompting strategies: zero-shot, one-shot, and few-shot;
+- 10 executions per case-model-prompt combination;
+- 38,850 generated BDD scenarios.
 
-The study evaluates both the **reference-based quality** of the generated scenarios and their **stability across repeated executions**.
+The same finalized prompt templates were applied across all models. One-shot used one fixed demonstration, and few-shot used three fixed demonstrations.
 
----
+## Evaluated models
 
-## 🤖 Evaluated Models
-
-| Model | Repository |
+| Model | Checkpoint |
 |---|---|
 | Qwen3-8B | `Qwen/Qwen3-8B` |
 | Gemma 4 E4B IT | `google/gemma-4-E4B-it` |
@@ -37,61 +34,35 @@ The study evaluates both the **reference-based quality** of the generated scenar
 | Llama 3 8B Instruct | `meta-llama/Meta-Llama-3-8B-Instruct` |
 | Mistral 7B Instruct v0.3 | `mistralai/Mistral-7B-Instruct-v0.3` |
 
-All models were executed in a self-hosted environment using the same experimental configuration.
+## Repository contents
 
----
+| Path | Contents |
+|---|---|
+| [dataset/](dataset/) | Experimental sample and source test cases. |
+| [reference base/](reference%20base/) | Expert-validated Gherkin reference scenarios. |
+| [prompts/](prompts/) | Model-specific generation notebooks containing the exact prompts and execution logic. |
+| [generations/](generations/) | Generated scenarios organized by model and prompting strategy. |
+| [metrics/](metrics/) | Automatic metric outputs. |
+| [human evaluation/](human%20evaluation/) | Blinded human-evaluation data and associated artifacts. |
+| [scripts/](scripts/) | Metric calculation and repeated-run convergence notebooks. |
+| [statistical-analysis/](statistical-analysis/) | Metric-validation and comparative statistical-analysis notebooks. |
+| [online-resource/](online-resource/) | Full prompts, methodological detail, and secondary tables cited by the manuscript. |
 
-## 💬 Prompting Strategies
+## Evaluation
 
-Three prompting strategies were evaluated under a controlled prompt design.
+The study calculates four reference-based measures:
 
-| Strategy | Demonstrations |
-|---|---:|
-| Zero-shot | 0 |
-| One-shot | 1 |
-| Few-shot | 3 |
+- BERTScore F1;
+- METEOR;
+- Manhattan Distance;
+- a bidirectional step-level NLI score.
 
-The same finalized prompt templates were consistently applied across all evaluated models.
+A human assessment of 259 sampled generations evaluates Structure, Semantics, and Details. Repeated-generation analyses separately examine textual convergence with Normalized Token-Level Levenshtein Distance and dispersion of reference-based performance across runs.
 
----
+## Reproduction notes
 
-## 📊 Evaluation
+The executable Jupyter notebooks record model-specific chat-template handling, generation parameters, output validation, metric implementation, and statistical procedures. Paths may need to be adapted to the local or RunPod environment before execution. The [methodological details](online-resource/methodological-details.md) page maps each documented operation to its notebook.
 
-Generated scenarios were evaluated using automatic metrics and human assessment.
+## License
 
-### Automatic Metrics
-
-- **BERTScore F1**
-- **METEOR**
-- **Manhattan Distance**
-- **Natural Language Inference (NLI)**
-
-### Stability Analysis
-
-Repeated executions were also analyzed to investigate generation variability and convergence.
-
-The stability analysis includes:
-
-- Run-level variability
-- Coefficient of Variation (CV)
-- Normalized Token-Level Levenshtein Distance
-- Convergence across repeated executions
-
-### Human Evaluation
-
-A human evaluation was conducted to investigate how well automatic metrics reflect the quality of generated BDD scenarios.
-
-The assessment considered:
-
-- **Structure**
-- **Semantic correspondence**
-- **Level of detail**
-
----
-
-## 🧪 Experimental Design
-
-For each combination of:
-
-```text
-Test Case × Model × Prompting Strategy
+This repository is released under the [MIT License](LICENSE).
