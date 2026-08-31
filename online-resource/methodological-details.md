@@ -22,6 +22,32 @@ Each automatic metric therefore contained 38,850 scenario-level measurements. Th
 
 Repeated executions were not treated as independent observations.
 
+## Dataset sampling and generation notation
+
+For a finite eligible population, the target sample size was calculated as:
+
+```text
+n = [N × z² × p(1-p)] / [e²(N-1) + z² × p(1-p)]
+```
+
+Here, `N` is the eligible population size, `z` the critical value for the confidence level, `p` the assumed population proportion, and `e` the maximum margin of error. With `N = 787`, `z = 1.96`, `p = 0.50`, and `e = 0.05`, the estimate was 258.37 and was rounded up to 259.
+
+Proportionate allocation to project stratum `h` used:
+
+```text
+n_h = (N_h / N) × n
+```
+
+Integer parts were assigned first, and remaining cases were distributed by largest fractional remainders. Sampling within projects and the final shuffle used random state 42.
+
+For notation, the output produced from test case `T_c` by model `m`, prompting strategy `p`, and execution `r` was:
+
+```text
+G[c,m,p,r] = f[m,p](T_c; r)
+```
+
+All configurations used the same `T_c` and corresponding expert reference `R_c` for a given case.
+
 ## Automatic metric operationalization
 
 All reference-generated pairs were joined by case identifier, and each score retained the unique generation identifier used to join the automatic and human-evaluation records.
