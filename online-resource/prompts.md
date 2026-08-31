@@ -1,6 +1,6 @@
 # Full prompt templates
 
-This file is the Online Resource for the prompt-construction method described in the manuscript. The three user-prompt templates below are reproduced verbatim from the generation notebooks. A cross-check of all five model notebooks confirmed that the zero-shot, one-shot, and few-shot strings are identical across models.
+This document records the exact prompt-construction method used in the study. The three user-prompt templates below are reproduced verbatim from the generation notebooks. A cross-check of all five model notebooks confirmed that the zero-shot, one-shot, and few-shot strings are identical across models.
 
 At runtime, `{test_case}` was replaced with the cleaned source test-case description. The same task definition and demonstrations were used for every model.
 

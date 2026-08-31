@@ -1,6 +1,6 @@
 # Methodological details
 
-This Online Resource preserves implementation-level detail removed from the main manuscript for concision. The notation follows the manuscript.
+This document records the metric implementations, operational equations, statistical aggregation procedures, and convergence derivation used in the study. The notation follows the manuscript and analysis notebooks.
 
 ## Experimental cardinalities and units
 
