@@ -70,6 +70,24 @@ pip install -r requirements-generation.txt
 | [results/](results/) | Final statistical results and consolidated tables produced by the analysis notebooks. |
 | [online-resource/](online-resource/) | Reproducibility documentation for prompts, metric implementations, convergence procedures, and detailed tables. |
 
+## Experimental workflow
+
+The experimental workflow is organized into four main stages:
+
+1. **Dataset preparation**  
+   Prepare the experimental sample and reference scenarios available in [`dataset/`](dataset/) and [`reference base/`](reference%20base/).
+
+2. **Scenario generation**  
+   Generate the BDD scenarios using the notebooks in [`prompts/`](prompts/), with the resulting generations stored in [`generations/`](generations/).
+
+3. **Metric calculation**  
+   Compute the automatic evaluation metrics using the notebooks in [`scripts/`](scripts/), with metric outputs stored in [`metrics/`](metrics/).
+
+4. **Statistical analysis**  
+   Perform metric validation and the comparisons of prompting strategies, models, convergence, and stability using the notebooks in [`statistical-analysis/`](statistical-analysis/). Final consolidated outputs are available in [`results/`](results/).
+
+Each notebook contains the instructions for its required inputs, execution environment, and outputs.
+
 ## Evaluation
 
 The study calculates four reference-based measures:
