@@ -1,0 +1,4 @@
+﻿comparada_com,superior_estatisticamente,p_holm,interpretacao_original
+manhattan,True,0.0042,bertscore_f1 > manhattan
+meteor,True,0.0,bertscore_f1 > meteor
+nli_score,True,0.0,bertscore_f1 > nli_score
