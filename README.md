@@ -34,6 +34,26 @@ The same finalized prompt templates were applied across all models. One-shot use
 | Llama 3 8B Instruct | `meta-llama/Meta-Llama-3-8B-Instruct` |
 | Mistral 7B Instruct v0.3 | `mistralai/Mistral-7B-Instruct-v0.3` |
 
+## Execution environment
+
+The scenario-generation experiments were executed in a self-hosted RunPod environment with the following configuration:
+
+- Python 3.12.3
+- PyTorch 2.8.0+cu128
+- CUDA 12.8
+- NVIDIA A40 GPU
+- 44.43 GiB GPU memory
+- NVIDIA driver 570.211.01
+
+The package versions used for scenario generation are pinned in:
+
+[`requirements-generation.txt`](requirements-generation.txt)
+
+To install the generation dependencies:
+
+```bash
+pip install -r requirements-generation.txt
+
 ## Repository contents
 
 | Path | Contents |
