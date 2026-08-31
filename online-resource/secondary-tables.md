@@ -54,21 +54,21 @@ Difference is the paired mean BERTScore F1 of the first strategy minus the secon
 
 | Model | Comparison | Difference | 95% CI | r_rb | Holm-adjusted p |
 |---|---|---:|---:|---:|---:|
-| Qwen3-8B | Zero vs. One | 6.15 | [5.25, 7.06] | 0.807 | `<0.001` |
-| Qwen3-8B | Zero vs. Few | 6.13 | [5.23, 7.08] | 0.796 | `<0.001` |
-| Qwen3-8B | One vs. Few | -0.03 | [-0.57, 0.51] | 0.020 | 0.782 |
-| Gemma-4-E4B-it | Zero vs. One | 2.89 | [2.11, 3.67] | 0.481 | `<0.001` |
-| Gemma-4-E4B-it | Zero vs. Few | 4.43 | [3.57, 5.26] | 0.643 | `<0.001` |
-| Gemma-4-E4B-it | One vs. Few | 1.54 | [0.81, 2.28] | 0.262 | `<0.001` |
-| Granite-4.1-8B | Zero vs. One | 1.43 | [0.86, 1.98] | 0.373 | `<0.001` |
-| Granite-4.1-8B | Zero vs. Few | 1.65 | [1.09, 2.25] | 0.406 | `<0.001` |
-| Granite-4.1-8B | One vs. Few | 0.22 | [-0.10, 0.55] | 0.116 | 0.107 |
-| Llama-3-8B | Zero vs. One | 0.89 | [0.27, 1.52] | 0.179 | 0.013 |
-| Llama-3-8B | Zero vs. Few | 4.28 | [3.49, 5.07] | 0.692 | `<0.001` |
-| Llama-3-8B | One vs. Few | 3.39 | [2.80, 3.98] | 0.749 | `<0.001` |
-| Mistral-7B-v0.3 | Zero vs. One | 7.73 | [6.85, 8.67] | 0.916 | `<0.001` |
-| Mistral-7B-v0.3 | Zero vs. Few | 7.51 | [6.60, 8.42] | 0.880 | `<0.001` |
-| Mistral-7B-v0.3 | One vs. Few | -0.23 | [-0.90, 0.43] | 0.120 | 0.095 |
+| Qwen3-8B | Zero vs. One | 6.15 | [5.26, 7.04] | 0.807 | `<0.001` |
+| Qwen3-8B | Zero vs. Few | 6.13 | [5.21, 7.07] | 0.796 | `<0.001` |
+| Qwen3-8B | One vs. Few | -0.03 | [-0.57, 0.52] | 0.020 | 0.782 |
+| Gemma-4-E4B-it | Zero vs. One | 2.89 | [2.11, 3.68] | 0.481 | `<0.001` |
+| Gemma-4-E4B-it | Zero vs. Few | 4.43 | [3.57, 5.29] | 0.643 | `<0.001` |
+| Gemma-4-E4B-it | One vs. Few | 1.54 | [0.80, 2.31] | 0.262 | `<0.001` |
+| Granite-4.1-8B | Zero vs. One | 1.43 | [0.87, 2.00] | 0.373 | `<0.001` |
+| Granite-4.1-8B | Zero vs. Few | 1.65 | [1.07, 2.24] | 0.406 | `<0.001` |
+| Granite-4.1-8B | One vs. Few | 0.22 | [-0.09, 0.55] | 0.116 | 0.107 |
+| Llama-3-8B | Zero vs. One | 0.89 | [0.28, 1.51] | 0.179 | 0.013 |
+| Llama-3-8B | Zero vs. Few | 4.28 | [3.52, 5.05] | 0.692 | `<0.001` |
+| Llama-3-8B | One vs. Few | 3.39 | [2.80, 4.00] | 0.749 | `<0.001` |
+| Mistral-7B-v0.3 | Zero vs. One | 7.73 | [6.85, 8.64] | 0.916 | `<0.001` |
+| Mistral-7B-v0.3 | Zero vs. Few | 7.51 | [6.62, 8.44] | 0.880 | `<0.001` |
+| Mistral-7B-v0.3 | One vs. Few | -0.23 | [-0.91, 0.44] | 0.120 | 0.095 |
 
 ## OR-6. Pairwise model comparisons under zero-shot prompting
 
