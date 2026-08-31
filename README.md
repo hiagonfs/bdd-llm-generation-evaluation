@@ -53,6 +53,7 @@ To install the generation dependencies:
 
 ```bash
 pip install -r requirements-generation.txt
+```
 
 ## Repository contents
 
