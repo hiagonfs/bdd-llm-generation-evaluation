@@ -1,14 +1,14 @@
 # BDD LLM Generation Evaluation
 
-Replication package for the experimental evaluation reported in:
+Reproducibility package for the study reported in:
 
-**“Automating BDD Scenario Generation with LLMs: A Comprehensive Evaluation of Accuracy, Stability, and Practitioner Perception.”**
+**“Evaluating LLMs and Prompting Strategies for BDD Scenario Generation: Reference-Based Performance and Repeated-Run Stability.”**
 
 The study evaluates five open-weight language models and three prompting strategies for generating one Portuguese BDD scenario in Gherkin syntax from each natural-language software test case.
 
-## Online Resource for the manuscript
+## Reproducibility materials
 
-Material moved out of the article for concision is indexed in [online-resource/](online-resource/):
+The [online-resource/](online-resource/) directory provides detailed methodological documentation and study artifacts that support independent inspection and reproduction:
 
 - [full zero-shot, one-shot, and few-shot prompt templates](online-resource/prompts.md);
 - [metric implementations, operational equations, and convergence derivation](online-resource/methodological-details.md);
@@ -67,7 +67,7 @@ pip install -r requirements-generation.txt
 | [human evaluation/](human%20evaluation/) | Blinded human-evaluation data and associated artifacts. |
 | [scripts/](scripts/) | Metric calculation and repeated-run convergence notebooks. |
 | [statistical-analysis/](statistical-analysis/) | Metric-validation and comparative statistical-analysis notebooks. |
-| [online-resource/](online-resource/) | Full prompts, methodological detail, and secondary tables cited by the manuscript. |
+| [online-resource/](online-resource/) | Reproducibility documentation for prompts, metric implementations, convergence procedures, and detailed tables. |
 
 ## Evaluation
 
