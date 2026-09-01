@@ -139,8 +139,8 @@ A resposta deve conter estritamente apenas a sintaxe válida de Gherkin e evitar
 
 The executable notebooks remain the authoritative source for prompt assembly, model chat-template application, decoding parameters, output cleaning, and retry logic:
 
-- [Qwen3-8B](../prompts/Geracao_Gherkin_Qwen3_8B_RunPod_3_Tecnicas.ipynb)
-- [Gemma 4 E4B IT](../prompts/Geracao_Gherkin_Google_Gemma4_E4B_IT_RunPod_3_Tecnicas.ipynb)
-- [Granite 4.1 8B](../prompts/Geracao_Gherkin_IBM_Granite4_1_8B_3_Tecnicas_Sequencial.ipynb)
-- [Llama 3 8B Instruct](../prompts/Geracao_Gherkin_Llama3_RunPod_3_Tecnicas.ipynb)
-- [Mistral 7B Instruct v0.3](../prompts/Geracao_Gherkin_Mistral_7B_Instruct_v0_3_RunPod_3_Tecnicas.ipynb)
+- [Qwen3-8B](../prompts/Gherkin_Generation_Qwen3_8B_RunPod_3_Techniques.ipynb)
+- [Gemma 4 E4B IT](../prompts/Gherkin_Generation_Google_Gemma4_E4B_IT_RunPod_3_Techniques.ipynb)
+- [Granite 4.1 8B](../prompts/Gherkin_Generation_IBM_Granite4_1_8B_3_Techniques_Sequential.ipynb)
+- [Llama 3 8B Instruct](../prompts/Gherkin_Generation_Llama3_RunPod_3_Techniques.ipynb)
+- [Mistral 7B Instruct v0.3](../prompts/Gherkin_Generation_Mistral_7B_Instruct_v0_3_RunPod_3_Techniques.ipynb)
